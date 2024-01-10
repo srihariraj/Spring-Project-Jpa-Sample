@@ -17,7 +17,7 @@ public class UserAccountsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UserAccountsApplication.class, args);
 		
-		Students S1 = new Students(111, "Sri", "CSE",78.45F);
+		Students S1 = new Students(0, "NULL", "CSE",0.0F);
 		
 		logic.save(S1);
 	}
